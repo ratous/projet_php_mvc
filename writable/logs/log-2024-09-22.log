@@ -1,0 +1,199 @@
+CRITICAL - 2024-09-22 17:21:32 --> syntax error, unexpected token "||"
+in APPPATH/Controllers/Controleur.php on line 30.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:22:50 --> syntax error, unexpected token "&&"
+in APPPATH/Controllers/Controleur.php on line 22.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:23:25 --> syntax error, unexpected token "||"
+in APPPATH/Controllers/Controleur.php on line 30.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:23:47 --> syntax error, unexpected token "||"
+in APPPATH/Controllers/Controleur.php on line 30.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:24:26 --> syntax error, unexpected token "||"
+in APPPATH/Controllers/Controleur.php on line 30.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:25:23 --> syntax error, unexpected token "or"
+in APPPATH/Controllers/Controleur.php on line 30.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:26:10 --> Undefined array key "action"
+in APPPATH/Controllers/Controleur.php on line 93.
+ 1 APPPATH/Controllers/Controleur.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(33): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:30:01 --> Undefined array key "Consulter"
+in APPPATH/Controllers/Controleur.php on line 93.
+ 1 APPPATH/Controllers/Controleur.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(33): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:30:44 --> Undefined array key "Consulter"
+in APPPATH/Controllers/Controleur.php on line 93.
+ 1 APPPATH/Controllers/Controleur.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(33): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 17:32:23 --> Undefined array key "Consulter"
+in APPPATH/Controllers/Controleur.php on line 93.
+ 1 APPPATH/Controllers/Controleur.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(33): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 19:24:41 --> syntax error, unexpected token ","
+in APPPATH/Controllers/Controleur.php on line 100.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 19:26:34 --> syntax error, unexpected token ","
+in APPPATH/Controllers/Controleur.php on line 100.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 19:28:49 --> Undefined array key "mois"
+in APPPATH/Controllers/Controleur.php on line 99.
+ 1 APPPATH/Controllers/Controleur.php(99): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(33): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 19:37:51 --> Undefined variable $donnees
+in APPPATH/Controllers/Controleur.php on line 108.
+ 1 APPPATH/Controllers/Controleur.php(108): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(39): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 19:43:05 --> syntax error, unexpected identifier "WHERE"
+in APPPATH/Models/Modele.php on line 107.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Controleur.php(61): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Controleur.php(46): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-22 19:43:52 --> syntax error, unexpected identifier "WHERE"
+in APPPATH/Models/Modele.php on line 107.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/Controleur.php(61): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 APPPATH/Controllers/Controleur.php(46): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-22 20:29:43 --> Error connecting to the database: mysqli_sql_exception: Accès refusé pour l'utilisateur: 'root'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'gsbV2', 3306, '', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(27): CodeIgniter\Database\BaseConnection->query('SELECT login, i...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(70): App\Models\Modele->getindex('dandre', 'oppg5')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(50): App\Controllers\Controleur->motdp()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\NDF3\app\Models\Modele.php(27): CodeIgniter\Database\BaseConnection->query('SELECT login, i...', Array)
+#3 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(70): App\Models\Modele->getindex('dandre', 'oppg5')
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(50): App\Controllers\Controleur->motdp()
+#5 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-22 20:29:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Accès refusé pour l'utilisateur: '****'@'@localhost' (mot de passe: OUI)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Modele.php(27): CodeIgniter\Database\BaseConnection->query('SELECT login, id FROM Visiteur WHERE login = ? AND mdp = ? ', [...])
+ 3 APPPATH\Controllers\Controleur.php(70): App\Models\Modele->getindex('dandre', 'oppg5')
+ 4 APPPATH\Controllers\Controleur.php(50): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-22 20:30:25 --> mysqli_sql_exception: La table 'gsbv2.fiches_de_frais' n'existe pas in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM f...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM f...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM f...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(100): CodeIgniter\Database\BaseConnection->query('SELECT * FROM f...')
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(107): App\Models\Modele->getListeFdfAll()
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(35): App\Controllers\Controleur->consulter(0, 0)
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-22 20:30:25 --> La table 'gsbv2.fiches_de_frais' n'existe pas
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(100): CodeIgniter\Database\BaseConnection->query('SELECT * FROM fiches_de_frais')
+ 2 APPPATH\Controllers\Controleur.php(107): App\Models\Modele->getListeFdfAll()
+ 3 APPPATH\Controllers\Controleur.php(35): App\Controllers\Controleur->consulter(0, 0)
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,225 @@
+CRITICAL - 2024-09-19 06:52:13 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\Controleur.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 06:56:17 --> syntax error, unexpected token "if", expecting "function" or "const"
+in APPPATH\Controllers\Controleur.php on line 36.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 06:56:46 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 06:56:48 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 08:45:19 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\Controleur.php on line 84.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 08:55:08 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Controleur.php on line 59.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 09:17:00 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Controleur.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 09:24:32 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Controleur.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 10:25:21 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\Controleur.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 11:50:46 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\Controleur.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 11:50:50 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\Controleur.php on line 93.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 12:55:09 --> syntax error, unexpected token ",", expecting "]"
+in APPPATH\Controllers\Controleur.php on line 90.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 12:57:58 --> Cannot redeclare App\Controllers\Controleur::consulter()
+in APPPATH\Controllers\Controleur.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-19 12:59:10 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 13:00:01 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-19 13:00:10 --> mysqli_sql_exception: La table 'gsbv2.t_billet' n'existe pas in C:\wamp64\www\codeigniter4-v4.4.0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\MySQLi\Connection.php(306): mysqli->query('select BIL_ID, ...', 0)
+#1 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select BIL_ID, ...')
+#2 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select BIL_ID, ...')
+#3 C:\wamp64\www\codeigniter4-v4.4.0\app\Models\Modele.php(110): CodeIgniter\Database\BaseConnection->query('select BIL_ID, ...')
+#4 C:\wamp64\www\codeigniter4-v4.4.0\app\Controllers\Controleur.php(157): App\Models\Modele->getBillets()
+#5 C:\wamp64\www\codeigniter4-v4.4.0\app\Controllers\Controleur.php(24): App\Controllers\Controleur->accueil()
+#6 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-v4.4.0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-19 13:00:10 --> La table 'gsbv2.t_billet' n'existe pas
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(110): CodeIgniter\Database\BaseConnection->query('select BIL_ID, BIL_TITRE, BIL_DATE from T_BILLET order by BIL_ID desc')
+ 2 APPPATH\Controllers\Controleur.php(157): App\Models\Modele->getBillets()
+ 3 APPPATH\Controllers\Controleur.php(24): App\Controllers\Controleur->accueil()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-19 13:02:53 --> mysqli_sql_exception: La table 'gsbv2.fichesfrais' n'existe pas in C:\wamp64\www\codeigniter4-v4.4.0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM F...', 0)
+#1 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM F...')
+#2 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM F...')
+#3 C:\wamp64\www\codeigniter4-v4.4.0\app\Models\Modele.php(89): CodeIgniter\Database\BaseConnection->query('SELECT * FROM F...')
+#4 C:\wamp64\www\codeigniter4-v4.4.0\app\Controllers\Controleur.php(157): App\Models\Modele->getall()
+#5 C:\wamp64\www\codeigniter4-v4.4.0\app\Controllers\Controleur.php(24): App\Controllers\Controleur->accueil()
+#6 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-v4.4.0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-19 13:02:53 --> La table 'gsbv2.fichesfrais' n'existe pas
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(89): CodeIgniter\Database\BaseConnection->query('SELECT * FROM Fichesfrais')
+ 2 APPPATH\Controllers\Controleur.php(157): App\Models\Modele->getall()
+ 3 APPPATH\Controllers\Controleur.php(24): App\Controllers\Controleur->accueil()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 13:04:32 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 13:25:20 --> Invalid file: "Index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Index.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Index', [], true)
+ 3 APPPATH\Controllers\Controleur.php(63): view('Index')
+ 4 APPPATH\Controllers\Controleur.php(24): App\Controllers\Controleur->accueil()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 13:25:52 --> Call to undefined method App\Controllers\Controleur::mdp()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 14:55:22 --> Call to undefined method App\Controllers\Controleur::mdp()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 14:55:47 --> Call to undefined method App\Controllers\Controleur::mdp()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 14:59:15 --> Call to undefined method App\Controllers\Controleur::mdp()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 15:14:49 --> Call to undefined method App\Controllers\Controleur::mdp()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 19:17:07 --> Call to undefined method App\Controllers\Controleur::mdp()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 19:58:48 --> Call to undefined method App\Controllers\Controleur::mdp()
+in APPPATH/Controllers/Controleur.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-19 19:59:03 --> Call to undefined method App\Controllers\Controleur::mdp()
+in APPPATH/Controllers/Controleur.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

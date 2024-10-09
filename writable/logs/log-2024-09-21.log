@@ -1,0 +1,385 @@
+ERROR - 2024-09-21 14:26:28 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/NDF3/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/NDF3/app/Models/Modele.php(27): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(66): App\Models\Modele->getindex()
+#5 /var/www/html/NDF3/app/Controllers/Controleur.php(25): App\Controllers\Controleur->motdp()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/NDF3/app/Models/Modele.php(27): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/NDF3/app/Controllers/Controleur.php(66): App\Models\Modele->getindex()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(25): App\Controllers\Controleur->motdp()
+#5 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-21 14:26:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Modele.php(27): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Controleur.php(66): App\Models\Modele->getindex()
+ 4 APPPATH/Controllers/Controleur.php(25): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-21 15:07:09 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:184
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/MySQLi/Connection.php(184): mysqli->real_connect()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /var/www/html/NDF3/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/NDF3/app/Models/Modele.php(27): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(56): App\Models\Modele->getindex()
+#5 /var/www/html/NDF3/app/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/NDF3/app/Models/Modele.php(27): CodeIgniter\Database\BaseConnection->query()
+#3 /var/www/html/NDF3/app/Controllers/Controleur.php(56): App\Models\Modele->getindex()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+#5 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-09-21 15:07:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Modele.php(27): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Controleur.php(56): App\Models\Modele->getindex()
+ 4 APPPATH/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-21 15:09:00 --> mysqli_sql_exception: Table 'gsbV2.visiteur' doesn't exist in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/NDF3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/NDF3/app/Models/Modele.php(27): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(56): App\Models\Modele->getindex()
+#5 /var/www/html/NDF3/app/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-21 15:09:00 --> Table 'gsbV2.visiteur' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/Modele.php(27): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Controleur.php(56): App\Models\Modele->getindex()
+ 3 APPPATH/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+ 4 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:10:10 --> date(): Argument #1 ($format) must be of type string, array given
+in APPPATH/Controllers/Controleur.php on line 60.
+ 1 APPPATH/Controllers/Controleur.php(60): date()
+ 2 APPPATH/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:11:50 --> syntax error, unexpected variable "$donnee2"
+in APPPATH/Controllers/Controleur.php on line 61.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:11:56 --> syntax error, unexpected variable "$donnee2"
+in APPPATH/Controllers/Controleur.php on line 61.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:12:03 --> syntax error, unexpected variable "$donnee2"
+in APPPATH/Controllers/Controleur.php on line 61.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(873): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-21 15:12:36 --> mysqli_sql_exception: Table 'gsbV2.Fichefrais' doesn't exist in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/NDF3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/NDF3/app/Models/Modele.php(34): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(61): App\Models\Modele->gettestfiche()
+#5 /var/www/html/NDF3/app/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-21 15:12:36 --> Table 'gsbV2.Fichefrais' doesn't exist
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/Modele.php(34): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Controleur.php(61): App\Models\Modele->gettestfiche()
+ 3 APPPATH/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+ 4 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:14:55 --> Call to a member function getResult() on true
+in APPPATH/Models/Modele.php on line 69.
+ 1 APPPATH/Controllers/Controleur.php(63): App\Models\Modele->creationfichefrais()
+ 2 APPPATH/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:20:12 --> Undefined array key "mois_selectionne"
+in APPPATH/Controllers/Controleur.php on line 92.
+ 1 APPPATH/Controllers/Controleur.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:28:05 --> Undefined array key "mois_selectionne"
+in APPPATH/Controllers/Controleur.php on line 92.
+ 1 APPPATH/Controllers/Controleur.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-21 15:29:37 --> mysqli_sql_exception: Unknown column 'date' in 'where clause' in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/NDF3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/NDF3/app/Models/Modele.php(85): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(96): App\Models\Modele->getmois()
+#5 /var/www/html/NDF3/app/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-21 15:29:37 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/Modele.php(85): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Controleur.php(96): App\Models\Modele->getmois()
+ 3 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 4 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-21 15:43:28 --> mysqli_sql_exception: Unknown column 'date' in 'where clause' in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/NDF3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/NDF3/app/Models/Modele.php(85): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(96): App\Models\Modele->getmois()
+#5 /var/www/html/NDF3/app/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-21 15:43:28 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/Modele.php(85): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Controleur.php(96): App\Models\Modele->getmois()
+ 3 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 4 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:57:35 --> Undefined variable $data
+in APPPATH/Controllers/Controleur.php on line 100.
+ 1 APPPATH/Controllers/Controleur.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:58:09 --> Undefined variable $data
+in APPPATH/Controllers/Controleur.php on line 100.
+ 1 APPPATH/Controllers/Controleur.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 15:59:06 --> Undefined variable $mois
+in APPPATH/Views/consulterFiche.php on line 40.
+ 1 APPPATH/Views/consulterFiche.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/NDF3/app/Views/consulterFiche.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Controleur.php(101): view()
+ 6 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 7 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 8 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 16:04:40 --> Undefined variable $data
+in APPPATH/Controllers/Controleur.php on line 103.
+ 1 APPPATH/Controllers/Controleur.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-21 16:07:49 --> mysqli_sql_exception: Unknown column 'date' in 'where clause' in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/NDF3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/NDF3/app/Models/Modele.php(85): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(96): App\Models\Modele->getmois()
+#5 /var/www/html/NDF3/app/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-21 16:07:49 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/Modele.php(85): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Controleur.php(96): App\Models\Modele->getmois()
+ 3 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 4 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-21 16:09:55 --> mysqli_sql_exception: Unknown column 'date' in 'where clause' in /var/www/html/NDF3/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/NDF3/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/NDF3/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/NDF3/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/NDF3/app/Models/Modele.php(85): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/NDF3/app/Controllers/Controleur.php(96): App\Models\Modele->getmois()
+#5 /var/www/html/NDF3/app/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+#6 /var/www/html/NDF3/system/CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 /var/www/html/NDF3/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/NDF3/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/NDF3/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-21 16:09:55 --> Unknown column 'date' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 APPPATH/Models/Modele.php(85): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH/Controllers/Controleur.php(96): App\Models\Modele->getmois()
+ 3 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 4 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 16:19:29 --> Undefined array key "mois_selectionne"
+in APPPATH/Controllers/Controleur.php on line 92.
+ 1 APPPATH/Controllers/Controleur.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 16:24:50 --> Call to a member function getResult() on true
+in APPPATH/Models/Modele.php on line 69.
+ 1 APPPATH/Controllers/Controleur.php(65): App\Models\Modele->creationfichefrais()
+ 2 APPPATH/Controllers/Controleur.php(38): App\Controllers\Controleur->motdp()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 16:35:31 --> Undefined array key "mois_selectionne"
+in APPPATH/Controllers/Controleur.php on line 92.
+ 1 APPPATH/Controllers/Controleur.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 16:37:15 --> Undefined array key "mois_selectionne"
+in APPPATH/Controllers/Controleur.php on line 94.
+ 1 APPPATH/Controllers/Controleur.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 16:37:54 --> Undefined array key "mois_selectionne"
+in APPPATH/Controllers/Controleur.php on line 94.
+ 1 APPPATH/Controllers/Controleur.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 16:45:28 --> Undefined variable $mois
+in APPPATH/Views/consulterFiche.php on line 40.
+ 1 APPPATH/Views/consulterFiche.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/NDF3/app/Views/consulterFiche.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Controleur.php(108): view()
+ 6 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 7 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 8 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 16:47:01 --> Undefined variable $mois
+in APPPATH/Views/consulterFiche.php on line 41.
+ 1 APPPATH/Views/consulterFiche.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(226): include('/var/www/html/NDF3/app/Views/consulterFiche.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Controleur.php(108): view()
+ 6 APPPATH/Controllers/Controleur.php(32): App\Controllers\Controleur->consulter()
+ 7 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 8 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 17:07:58 --> Invalid file: "Connexion.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Controleur.php(86): view()
+ 4 APPPATH/Controllers/Controleur.php(44): App\Controllers\Controleur->accueil()
+ 5 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-21 17:08:18 --> Invalid file: "Connexion.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Controleur.php(86): view()
+ 4 APPPATH/Controllers/Controleur.php(44): App\Controllers\Controleur->accueil()
+ 5 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

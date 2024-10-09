@@ -1,0 +1,306 @@
+ERROR - 2024-09-16 11:14:19 --> mysqli_sql_exception: La table 'gsbv2.t_billet' n'existe pas in C:\wamp64\www\codeigniter4-v4.4.0\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\MySQLi\Connection.php(306): mysqli->query('select BIL_ID, ...', 0)
+#1 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('select BIL_ID, ...')
+#2 C:\wamp64\www\codeigniter4-v4.4.0\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select BIL_ID, ...')
+#3 C:\wamp64\www\codeigniter4-v4.4.0\app\Models\Modele.php(64): CodeIgniter\Database\BaseConnection->query('select BIL_ID, ...')
+#4 C:\wamp64\www\codeigniter4-v4.4.0\app\Controllers\Controleur.php(38): App\Models\Modele->getBillets()
+#5 C:\wamp64\www\codeigniter4-v4.4.0\app\Controllers\Controleur.php(19): App\Controllers\Controleur->accueil()
+#6 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\codeigniter4-v4.4.0\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\codeigniter4-v4.4.0\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-16 11:14:19 --> La table 'gsbv2.t_billet' n'existe pas
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(64): CodeIgniter\Database\BaseConnection->query('select BIL_ID, BIL_TITRE, BIL_DATE from T_BILLET order by BIL_ID desc')
+ 2 APPPATH\Controllers\Controleur.php(38): App\Models\Modele->getBillets()
+ 3 APPPATH\Controllers\Controleur.php(19): App\Controllers\Controleur->accueil()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:27:23 --> Cannot redeclare App\Controllers\Controleur::index()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-16 11:27:25 --> Cannot redeclare App\Controllers\Controleur::index()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-16 11:28:04 --> Cannot redeclare App\Controllers\Controleur::index()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-16 11:28:05 --> Cannot redeclare App\Controllers\Controleur::index()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-16 11:28:05 --> Cannot redeclare App\Controllers\Controleur::index()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-16 11:28:05 --> Cannot redeclare App\Controllers\Controleur::index()
+in APPPATH\Controllers\Controleur.php on line 22.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-16 11:33:59 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:34:00 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:34:27 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:34:28 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:34:28 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:34:29 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:34:29 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:36:53 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:36:53 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:36:53 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:36:53 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:36:54 --> Call to undefined method App\Controllers\Controleur::accueil()
+in APPPATH\Controllers\Controleur.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:37:36 --> Undefined variable $login
+in APPPATH\Views\accueil.php on line 26.
+ 1 APPPATH\Views\accueil.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $login', 'C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Views\\accueil.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Views\\accueil.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('accueil', [], true)
+ 5 APPPATH\Controllers\Controleur.php(78): view('accueil')
+ 6 APPPATH\Controllers\Controleur.php(20): App\Controllers\Controleur->accueil()
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 11:54:47 --> Undefined variable $condition_pour_page1
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 APPPATH\Controllers\Controleur.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $condition_pour_page1', 'C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:12:35 --> Undefined variable $condition_pour_page1
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 APPPATH\Controllers\Controleur.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $condition_pour_page1', 'C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:12:35 --> Undefined variable $condition_pour_page1
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 APPPATH\Controllers\Controleur.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $condition_pour_page1', 'C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:12:36 --> Undefined variable $condition_pour_page1
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 APPPATH\Controllers\Controleur.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $condition_pour_page1', 'C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:12:36 --> Undefined variable $condition_pour_page1
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 APPPATH\Controllers\Controleur.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $condition_pour_page1', 'C:\\wamp64\\www\\codeigniter4-v4.4.0\\app\\Controllers\\Controleur.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:04 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:05 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:05 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:40 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:41 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:42 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:42 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:42 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:42 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:42 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:42 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 12:17:42 --> Class "App\Controllers\Auth" not found
+in APPPATH\Controllers\Controleur.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 14:20:22 --> Cannot redeclare App\Controllers\Controleur::connexion()
+in APPPATH\Controllers\Controleur.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-16 14:21:01 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Controleur.php(40): CodeIgniter\Model->__call('getMotdp', [...])
+ 4 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 14:24:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Controleur.php(40): CodeIgniter\Model->__call('getMotdp', [...])
+ 4 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 14:25:00 --> Call to undefined method App\Controllers\Controleur::connection()
+in APPPATH\Controllers\Controleur.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 14:25:10 --> Call to undefined method App\Controllers\Controleur::connection()
+in APPPATH\Controllers\Controleur.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 2 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 14:26:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Controleur.php(40): CodeIgniter\Model->__call('getMotdp', [...])
+ 4 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 14:26:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Controleur.php(40): CodeIgniter\Model->__call('getMotdp', [...])
+ 4 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 14:27:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Controleur.php(40): CodeIgniter\Model->__call('getMotdp', [...])
+ 4 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-16 14:29:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Controleur.php(40): CodeIgniter\Model->__call('getMotdp', [...])
+ 4 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->motdp()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

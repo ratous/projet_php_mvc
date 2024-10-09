@@ -1,0 +1,229 @@
+CRITICAL - 2024-09-25 14:19:55 --> Undefined variable $mois
+in APPPATH\Controllers\Controleur.php on line 116.
+ 1 APPPATH\Controllers\Controleur.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mois', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 116)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-25 14:21:00 --> mysqli_sql_exception: Erreur de syntaxe près de '? and idVisiteur=?' à la ligne 1 in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM L...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM L...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM L...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM L...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(116): App\Models\Modele->consultation('a17')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-25 14:21:00 --> Erreur de syntaxe près de '? and idVisiteur=?' à la ligne 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM LigneFraisForfait WHERE  mois=? and idVisiteur=?', [...])
+ 2 APPPATH\Controllers\Controleur.php(116): App\Models\Modele->consultation('a17')
+ 3 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:32:39 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:34:04 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 113.
+ 1 APPPATH\Controllers\Controleur.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 113)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:35:24 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:35:25 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:35:25 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:35:25 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:35:26 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:37:19 --> syntax error, unexpected variable "$mois"
+in APPPATH\Controllers\Controleur.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:37:21 --> syntax error, unexpected variable "$mois"
+in APPPATH\Controllers\Controleur.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:37:21 --> syntax error, unexpected variable "$mois"
+in APPPATH\Controllers\Controleur.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:38:11 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 110.
+ 1 APPPATH\Controllers\Controleur.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 110)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:38:11 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 110.
+ 1 APPPATH\Controllers\Controleur.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 110)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:38:12 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 110.
+ 1 APPPATH\Controllers\Controleur.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 110)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:38:12 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 110.
+ 1 APPPATH\Controllers\Controleur.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 110)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:41:10 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:42:33 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:43:27 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:48:50 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:48:50 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 109.
+ 1 APPPATH\Controllers\Controleur.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 109)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:55:58 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 113.
+ 1 APPPATH\Controllers\Controleur.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 113)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:55:59 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 113.
+ 1 APPPATH\Controllers\Controleur.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 113)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 14:56:26 --> Undefined array key "mois"
+in APPPATH\Controllers\Controleur.php on line 113.
+ 1 APPPATH\Controllers\Controleur.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mois"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 113)
+ 2 APPPATH\Controllers\Controleur.php(38): App\Controllers\Controleur->consulter()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 18:11:07 --> Invalid file: "Connexion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Connexion.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Connexion', [], true)
+ 3 APPPATH\Controllers\Controleur.php(104): view('Connexion')
+ 4 APPPATH\Controllers\Controleur.php(60): App\Controllers\Controleur->accueil()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-25 18:11:15 --> Invalid file: "Connexion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Connexion.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Connexion', [], true)
+ 3 APPPATH\Controllers\Controleur.php(104): view('Connexion')
+ 4 APPPATH\Controllers\Controleur.php(60): App\Controllers\Controleur->accueil()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

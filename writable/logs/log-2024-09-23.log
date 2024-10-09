@@ -1,0 +1,669 @@
+CRITICAL - 2024-09-23 09:44:41 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 138.
+ 1 APPPATH\Controllers\Controleur.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 138)
+ 2 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 09:55:42 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 138.
+ 1 APPPATH\Controllers\Controleur.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 138)
+ 2 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 09:55:43 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 138.
+ 1 APPPATH\Controllers\Controleur.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 138)
+ 2 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 09:56:19 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 138.
+ 1 APPPATH\Controllers\Controleur.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 138)
+ 2 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 09:58:12 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 138.
+ 1 APPPATH\Controllers\Controleur.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 138)
+ 2 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 09:58:15 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 138.
+ 1 APPPATH\Controllers\Controleur.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 138)
+ 2 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 10:01:29 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 10:03:39 --> Undefined variable $etape
+in APPPATH\Controllers\Controleur.php on line 144.
+ 1 APPPATH\Controllers\Controleur.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $etape', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 144)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 10:03:41 --> Undefined variable $etape
+in APPPATH\Controllers\Controleur.php on line 144.
+ 1 APPPATH\Controllers\Controleur.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $etape', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 144)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 10:03:54 --> Invalid file: "erreur.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('erreur.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('erreur', [], true)
+ 3 APPPATH\Controllers\Controleur.php(155): view('erreur')
+ 4 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 10:04:20 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:16:09 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:16:38 --> Undefined array key "etape"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "etape"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:22:40 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:24:13 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:24:21 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:24:22 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:27:55 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:29:52 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:29:56 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:30:35 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:31:47 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:38:24 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:41:39 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:42:26 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 140.
+ 1 APPPATH\Controllers\Controleur.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 140)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:42:28 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 140.
+ 1 APPPATH\Controllers\Controleur.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 140)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:46:24 --> syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\Controleur.php on line 156.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Controleur')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Controleur')
+ 4 SYSTEMPATH\CodeIgniter.php(873): class_exists('\\App\\Controllers\\Controleur', true)
+ 5 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:48:37 --> Undefined variable $mois
+in APPPATH\Controllers\Controleur.php on line 142.
+ 1 APPPATH\Controllers\Controleur.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mois', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 142)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:53:01 --> Undefined variable $idfraitforfait
+in APPPATH\Controllers\Controleur.php on line 145.
+ 1 APPPATH\Controllers\Controleur.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idfraitforfait', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 145)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:53:17 --> Invalid file: "Erreur : données manquantes.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Erreur : données manquantes.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('Erreur : données manquantes', [], true)
+ 3 APPPATH\Controllers\Controleur.php(158): view('Erreur : données manquantes')
+ 4 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 11:55:42 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 12:03:48 --> Undefined array key "id"
+in APPPATH\Controllers\Controleur.php on line 139.
+ 1 APPPATH\Controllers\Controleur.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 139)
+ 2 APPPATH\Controllers\Controleur.php(29): App\Controllers\Controleur->renseigner()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 12:11:30 --> Call to a member function getResult() on bool
+in APPPATH\Models\Modele.php on line 69.
+ 1 APPPATH\Controllers\Controleur.php(78): App\Models\Modele->creationfichefrais('a55', 'September', '2024-09-23')
+ 2 APPPATH\Controllers\Controleur.php(51): App\Controllers\Controleur->motdp()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 12:13:42 --> Undefined property: stdClass::$id
+in APPPATH\Views\consulterFiche.php on line 109.
+ 1 APPPATH\Views\consulterFiche.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\wamp64\\www\\NDF3\\app\\Views\\consulterFiche.php', 109)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\wamp64\\www\\NDF3\\app\\Views\\consulterFiche.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('consulterFiche', [], true)
+ 5 APPPATH\Controllers\Controleur.php(132): view('consulterFiche', [...])
+ 6 APPPATH\Controllers\Controleur.php(36): App\Controllers\Controleur->consulter(0, 0)
+ 7 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 8 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 12:19:45 --> Call to a member function getResult() on bool
+in APPPATH\Models\Modele.php on line 69.
+ 1 APPPATH\Controllers\Controleur.php(78): App\Models\Modele->creationfichefrais('a17', 'September', '2024-09-23')
+ 2 APPPATH\Controllers\Controleur.php(51): App\Controllers\Controleur->motdp()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 13:03:11 --> Call to a member function getResult() on bool
+in APPPATH\Models\Modele.php on line 69.
+ 1 APPPATH\Controllers\Controleur.php(80): App\Models\Modele->creationfichefrais('a17', 'September', '2024-09-23')
+ 2 APPPATH\Controllers\Controleur.php(51): App\Controllers\Controleur->motdp()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 13:05:16 --> Undefined global variable $_SESSION
+in APPPATH\Controllers\Controleur.php on line 186.
+ 1 APPPATH\Controllers\Controleur.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined global variable $_SESSION', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 186)
+ 2 APPPATH\Controllers\Controleur.php(24): App\Controllers\Controleur->renseignement()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 13:06:36 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Controleur.php(189): CodeIgniter\Model->__call('lignefraisforfaisupdate', [...])
+ 4 APPPATH\Controllers\Controleur.php(24): App\Controllers\Controleur->renseignement()
+ 5 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 6 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 13:09:19 --> mysqli_sql_exception: Champ 'montant' inconnu dans field list in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('update lignefra...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('update lignefra...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('update lignefra...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(115): CodeIgniter\Database\BaseConnection->query('update lignefra...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(189): App\Models\Modele->lignefraisforfaisupdate('5', 'ETP', 'September', 'a17')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(24): App\Controllers\Controleur->renseignement()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 13:09:19 --> Champ 'montant' inconnu dans field list
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(115): CodeIgniter\Database\BaseConnection->query('update lignefraisforfait set montant=? where idFraisForfait=? and mois=? and idVisiteur=?', [...])
+ 2 APPPATH\Controllers\Controleur.php(189): App\Models\Modele->lignefraisforfaisupdate('5', 'ETP', 'September', 'a17')
+ 3 APPPATH\Controllers\Controleur.php(24): App\Controllers\Controleur->renseignement()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 13:09:49 --> Undefined property: App\Controllers\Controleur::$renseigner
+in APPPATH\Controllers\Controleur.php on line 194.
+ 1 APPPATH\Controllers\Controleur.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Controleur::$renseigner', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 194)
+ 2 APPPATH\Controllers\Controleur.php(24): App\Controllers\Controleur->renseignement()
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 13:51:15 --> Undefined variable $mois_selectionne
+in APPPATH\Controllers\Controleur.php on line 113.
+ 1 APPPATH\Controllers\Controleur.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mois_selectionne', 'C:\\wamp64\\www\\NDF3\\app\\Controllers\\Controleur.php', 113)
+ 2 APPPATH\Controllers\Controleur.php(44): App\Controllers\Controleur->consulter(1, '04')
+ 3 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 4 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:21:37 --> mysqli_sql_exception: Erreur de syntaxe près de 'WHERE FicheFrais(idVisiteur) = Visiteur(id) AND LigneFraisForfait(idVisiteur) = ' à la ligne 2 in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(125): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('d\xC3\xA9pression', '2024-09-26', '666')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:21:37 --> Erreur de syntaxe près de 'WHERE FicheFrais(idVisiteur) = Visiteur(id) AND LigneFraisForfait(idVisiteur) = ' à la ligne 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(125): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?) 
+    WHERE FicheFrais(idVisiteur) = Visiteur(id) AND LigneFraisForfait(idVisiteur) = FicheFrais(idVisiteur)', [...])
+ 2 APPPATH\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('dépression', '2024-09-26', '666')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:21:52 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('d\xC3\xA9pression', '2024-09-26', '666')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:21:52 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('dépression', '2024-09-26', '666')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:23:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('d\xC3\xA9pression', '2024-09-24', '666')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:23:50 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('dépression', '2024-09-24', '666')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:25:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('d\xC3\xA9pression', '2024-09-24', '666')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:25:50 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('dépression', '2024-09-24', '666')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:29:19 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('d\xC3\xA9pression', '2024-09-24', '666')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:29:19 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(217): App\Models\Modele->lignefraishorsforfaisupdate('dépression', '2024-09-24', '666')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:31:28 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(217): App\Models\Modele->getlignefraishorsforfaisupdate('d\xC3\xA9pression', '2024-09-24', '666')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:31:28 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(217): App\Models\Modele->getlignefraishorsforfaisupdate('dépression', '2024-09-24', '666')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:47:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(217): App\Models\Modele->getlignefraishorsforfaisupdate('d\xC3\xA9pression', '2024-09-24', '666')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:47:50 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(217): App\Models\Modele->getlignefraishorsforfaisupdate('dépression', '2024-09-24', '666')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:50:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(217): App\Models\Modele->getlignefraishorsforfaisupdate('test5', '2024-09-23', '44')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:50:08 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(217): App\Models\Modele->getlignefraishorsforfaisupdate('test5', '2024-09-23', '44')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:52:51 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(219): App\Models\Modele->getlignefraishorsforfaisupdate('a17', 'September', 'test5', '2024-09-23', '44')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:52:51 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(219): App\Models\Modele->getlignefraishorsforfaisupdate('a17', 'September', 'test5', '2024-09-23', '44')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:53:19 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`)) in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(219): App\Models\Modele->getlignefraishorsforfaisupdate('a17', 'September', '555', '2024-09-23', '44')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:53:19 --> Cannot add or update a child row: a foreign key constraint fails (`gsbv2`.`lignefraishorsforfait`, CONSTRAINT `lignefraishorsforfait_ibfk_1` FOREIGN KEY (`idVisiteur`, `mois`) REFERENCES `fichefrais` (`idVisiteur`, `mois`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(219): App\Models\Modele->getlignefraishorsforfaisupdate('a17', 'September', '555', '2024-09-23', '44')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:56:22 --> mysqli_sql_exception: Erreur de syntaxe près de '?, ?, ?)' à la ligne 1 in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(219): App\Models\Modele->getlignefraishorsforfaisupdate('a17', 'September', 'test5', '2024-09-25', '44')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:56:22 --> Erreur de syntaxe près de '?, ?, ?)' à la ligne 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(idVisiteur, mois, libelle, date, montant) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(219): App\Models\Modele->getlignefraishorsforfaisupdate('a17', 'September', 'test5', '2024-09-25', '44')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 14:57:13 --> mysqli_sql_exception: Duplicata du champ '0' pour la clef 'lignefraishorsforfait.PRIMARY' in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO Lig...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO Lig...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO Lig...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO Lig...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(219): App\Models\Modele->getlignefraishorsforfaisupdate('a17', 'September', 'test6', '2024-09-23', '556')
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 14:57:13 --> Duplicata du champ '0' pour la clef 'lignefraishorsforfait.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(124): CodeIgniter\Database\BaseConnection->query('INSERT INTO LigneFraisHorsForfait(idVisiteur, mois, libelle, date, montant) VALUES (?, ?, ?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Controleur.php(219): App\Models\Modele->getlignefraishorsforfaisupdate('a17', 'September', 'test6', '2024-09-23', '556')
+ 3 APPPATH\Controllers\Controleur.php(28): App\Controllers\Controleur->renseignementhorsforfait()
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-23 15:10:42 --> Too few arguments to function App\Controllers\Controleur::consulter(), 2 passed in C:\wamp64\www\NDF3\app\Controllers\Controleur.php on line 40 and exactly 5 expected
+in APPPATH\Controllers\Controleur.php on line 108.
+ 1 APPPATH\Controllers\Controleur.php(40): App\Controllers\Controleur->consulter(0, 0)
+ 2 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 3 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 15:15:21 --> mysqli_sql_exception: Champ 'date' inconnu dans where clause in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM F...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM F...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM F...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(85): CodeIgniter\Database\BaseConnection->query('SELECT * FROM F...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(117): App\Models\Modele->getmois(1)
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(48): App\Controllers\Controleur->consulter(1, '09', 1, 1, 1)
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 15:15:21 --> Champ 'date' inconnu dans where clause
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(85): CodeIgniter\Database\BaseConnection->query('SELECT * FROM FicheFrais WHERE MONTH(date) = 1', [...])
+ 2 APPPATH\Controllers\Controleur.php(117): App\Models\Modele->getmois(1)
+ 3 APPPATH\Controllers\Controleur.php(48): App\Controllers\Controleur->consulter(1, '09', 1, 1, 1)
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-09-23 17:23:12 --> mysqli_sql_exception: Champ 'date' inconnu dans where clause in C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\wamp64\www\NDF3\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM F...', 0)
+#1 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM F...')
+#2 C:\wamp64\www\NDF3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM F...')
+#3 C:\wamp64\www\NDF3\app\Models\Modele.php(85): CodeIgniter\Database\BaseConnection->query('SELECT * FROM F...', Array)
+#4 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(117): App\Models\Modele->getmois(1)
+#5 C:\wamp64\www\NDF3\app\Controllers\Controleur.php(48): App\Controllers\Controleur->consulter(1, '09', 1, 1, 1)
+#6 C:\wamp64\www\NDF3\system\CodeIgniter.php(915): App\Controllers\Controleur->index()
+#7 C:\wamp64\www\NDF3\system\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+#8 C:\wamp64\www\NDF3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\NDF3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-09-23 17:23:12 --> Champ 'date' inconnu dans where clause
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Models\Modele.php(85): CodeIgniter\Database\BaseConnection->query('SELECT * FROM FicheFrais WHERE MONTH(date) = 1', [...])
+ 2 APPPATH\Controllers\Controleur.php(117): App\Models\Modele->getmois(1)
+ 3 APPPATH\Controllers\Controleur.php(48): App\Controllers\Controleur->consulter(1, '09', 1, 1, 1)
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Controleur->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Controleur))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
